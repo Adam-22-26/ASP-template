@@ -1,8 +1,7 @@
-#programsTitle{
-
+.container{
+  margin-top: 2em;
 }
 .table{
-
   margin-bottom: auto;
   text-align: center;
 }
@@ -11,11 +10,17 @@ td{
   width: 75%;
 
 }
-#auto_or_not{
+#sync{
   width: 1em;
   height: 1em;
-  margin-left: .5em;
-  margin-right: 1em;
+  margin-left: 1em;
+  /* margin-right: 1em; */
+}
+#autoinstall{
+  width: 1em;
+  height: 1em;
+  margin-left: 1em;
+  /* margin-right: 1em; */
 }
 .btn{
   height: 2em;
@@ -28,5 +33,5 @@ td{
   margin-top: 2em;
 }
 body{
-  background-color: white;
+background-image: url("images/background.jpg");
 }
